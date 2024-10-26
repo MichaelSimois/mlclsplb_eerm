@@ -1,0 +1,38 @@
+10   
+3
+8
+1       6.00    1.00    1
+2       7.00    1.00    1
+3       6.00    1.00    1
+4       2.00    1.00    2
+5       3.00    1.00    2
+6       3.00    1.00    2
+7       2.00    1.00    2
+8       1.00    1.00    3
+9       1.00    1.00    3
+10      1.00    1.00    3
+12
+4       1       1.00    1.00
+5       1       1.00    1.00
+5       2       1.00    1.00
+6       2       1.00    1.00
+6       3       1.00    1.00
+7       3       1.00    1.00
+8       4       1.00    1.00
+8       5       1.00    1.00
+9       5       1.00    1.00
+9       6       1.00    1.00
+10      6       1.00    1.00
+10      7       1.00    1.00
+
+#1  # of items
+#2  # of resources
+#3  # of periods
+#4  items
+#5  holding costs
+#6  production time per unit
+#7  number of ressource that produces the item
+#8  product ID component
+#9  product ID parent
+#10 units of component needed to produce one unit of parent
+#11 lead time

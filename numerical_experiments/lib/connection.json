@@ -1,0 +1,6 @@
+{
+    "host": "lot_sizing",
+    "database": "CAPACITATED_LOT_SIZING",
+    "user": "admin",
+    "password": "secret"
+}

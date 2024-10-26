@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+authors:
+  - family-names: Simonis
+    given-names: Michael
+    orcid: https://orcid.org/0000-0001-6972-1381
+title: "Extended Entity Relationship Model for Multi-Level Capacitated Lot-Sizing Models with Linked Lot Sizes and Backorders"
+version: 1.0
+doi: github.com/MichaelSimois/capacitated_lot_sizing
+date-released: 2023-11-01

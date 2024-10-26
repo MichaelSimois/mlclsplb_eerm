@@ -1,0 +1,7 @@
+1012K   research_data/raw_data/multilsb
+4.0M    research_data/raw_data/datab
+4.4M    research_data/raw_data/class_1_6
+244K    research_data/migrated_data/multilsb
+17M     research_data/migrated_data/tablets_manufacturing
+92K     research_data/migrated_data/datab
+1.7M    research_data/migrated_data/class_1_6

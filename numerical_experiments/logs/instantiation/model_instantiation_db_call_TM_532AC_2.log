@@ -1,0 +1,14 @@
+Filename: /lot_sizing/instantiate_model_eer_call.py
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+    13     19.3 MiB     19.3 MiB           1   @profile(stream = fp)
+    14                                         def instantiate_model(problem_instance_id):
+    15     95.4 MiB     76.0 MiB           1       from lib.index_model import IndexModel
+    16    103.5 MiB      8.1 MiB           2       index_model = IndexModel(
+    17     95.4 MiB      0.0 MiB           1           problem_instance_id = problem_instance_id, 
+    18     95.4 MiB      0.0 MiB           1           load_connection = True
+    19                                             )
+    20    104.4 MiB      0.9 MiB           1       index_model.instantiate()
+
+

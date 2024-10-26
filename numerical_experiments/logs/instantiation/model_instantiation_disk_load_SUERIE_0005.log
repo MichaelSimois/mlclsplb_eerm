@@ -1,0 +1,19 @@
+Filename: /lot_sizing/instantiate_model_eer_disk_call.py
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+    13     19.4 MiB     19.4 MiB           1   @profile(stream = fp)
+    14                                         def instantiate_model(problem_instance_id, data_path):
+    15                                             # For data preparation
+    16     87.3 MiB     67.9 MiB           1       from lib.index_model import IndexModel
+    17     87.3 MiB      0.0 MiB           1       from lib.prepare_data_in_memory import DataDiskLoader
+    18     93.9 MiB      6.5 MiB           1       disk_load = DataDiskLoader(problem_instance_id, data_path)
+    19                                         
+    20     99.3 MiB      5.5 MiB           2       index_model = IndexModel(
+    21     93.9 MiB      0.0 MiB           1           problem_instance_id = problem_instance_id,
+    22     93.9 MiB      0.0 MiB           1           load_connection = False, 
+    23     93.9 MiB      0.0 MiB           1           disk_data = disk_load.data_disk_load
+    24                                             )
+    25     99.6 MiB      0.3 MiB           1       index_model.instantiate()
+
+
