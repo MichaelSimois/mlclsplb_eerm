@@ -4,7 +4,7 @@ authors:
   - family-names: Simonis
     given-names: Michael
     orcid: https://orcid.org/0000-0001-6972-1381
-title: "Extended Entity Relationship Model for Multi-Level Capacitated Lot-Sizing Models with Linked Lot Sizes and Backorders"
-version: 1.0
-doi: github.com/MichaelSimois/capacitated_lot_sizing
-date-released: 2023-11-01
+title: "PostgreSQL: Relational database structures application on capacitated lot-sizing for pharmaceutical tablets manufacturing processes"
+version: 1.1
+doi: https://gitlab.kit.edu/mn2681/mlclsplb_eerm
+date-released: 2024-10-26
